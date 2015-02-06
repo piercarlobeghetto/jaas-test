@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/jaas-webapp">
+    <Realm className="org.apache.catalina.realm.JAASRealm"
+           appName="test-login"
+           userClassNames="test.jaas.auth.UserPrincipal"
+           roleClassNames="test.jaas.auth.RolePrincipal"/>
+</Context>
