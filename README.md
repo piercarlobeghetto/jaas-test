@@ -13,3 +13,7 @@ in %CATALINA_HOME%/conf/jaas_test.config
 test-login {
    test.jaas.auth.JAASLoginModule required;
 };
+
+
+Launching web app, initial page is login, credentials are username password.
+There are some system out for roles check in LoginAction and in HomeAction.
